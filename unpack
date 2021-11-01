@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm -rf sensitive
+gpg -o unpacked.tar -d sensitive.gpg
+if [ $? -eq 0 ] ; then
+    tar xf unpacked.tar
+    rm unpacked.tar
+fi
+

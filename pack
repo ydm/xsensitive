@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -f sensitive.gpg
+tar c sensitive | gpg -c -o sensitive.gpg
