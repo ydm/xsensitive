@@ -8,7 +8,7 @@ Safe(er) way to manage a repository of sensitive files.
 2. Make it private.
 3. `mkdir sensitive` and put everything sensitive there.
 4. `pack` and choose a password.
-5. `git commit -a -m something`
+5. `git commit -a -m message`
 
 ### How to share across devices
 1. Clone your private repository from another device.
